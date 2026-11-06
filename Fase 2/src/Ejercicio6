@@ -1,0 +1,27 @@
+// Ejercicio 6: Validación de datos (Control de errores)
+ 
+// Clase Validacion
+class Validacion {
+ 
+    // Devuelve true si la edad está entre 0 y 120
+    // Si no, imprime "Edad inválida" y devuelve false
+    public boolean verificarEdad(int edad) {
+        if (edad < 0 || edad > 120) {
+            System.out.println("Edad inválida");
+            return false;
+        }
+        return true;
+    }
+}
+ 
+// Clase principal (prueba)
+public class Ejercicio6 {
+    public static void main(String[] args) {
+        Validacion v = new Validacion();
+ 
+        System.out.println("Edad 25: " + v.verificarEdad(25));
+        System.out.println("Edad -5: " + v.verificarEdad(-5));
+        System.out.println("Edad 150: " + v.verificarEdad(150));
+    }
+}
+ 
