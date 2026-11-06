@@ -1,0 +1,42 @@
+/**
+ * EJERCICIOS APE
+ *
+ * Ejercicio 1: Identificación de tipos de retorno
+ */
+
+ ---------------------------------------------------------------
+EJERCICIO 1
+ ---------------------------------------------------------------
+Código original (genera error de compilación):
+
+public int calcularArea(double base, double altura) {
+double area = base * altura;
+System.out.println("El área es: " + area);
+}
+
+¿Por qué falla?
+El método declara que devuelve un "int", pero nunca ejecuta una
+sentencia "return". En Java, todo método con tipo de retorno distinto
+de void DEBE devolver un valor en todos sus caminos de ejecución.
+Además, "area" es un double, y no se puede devolver como int sin
+un casting explícito (se perdería la parte decimal).
+
+Correcciones posibles:
+A) Cambiar el tipo de retorno a double y agregar "return area;"
+(la mejor opción: el área de base * altura puede tener decimales).
+B) Cambiar el tipo de retorno a void si solo se desea imprimir.
+class Ejercicio1 {
+
+    // Corrección A: devuelve el área como double
+    public double calcularArea(double base, double altura) {
+        double area = base * altura;
+        System.out.println("El área es: " + area);
+        return area; // <- sentencia que faltaba
+    }
+
+    // Corrección B: solo imprime, por lo tanto es void
+    public void calcularAreaVoid(double base, double altura) {
+        double area = base * altura;
+        System.out.println("El área es: " + area);
+    }
+}
