@@ -24,9 +24,9 @@ Repositorio único con las tres fases (avances) de la APE 4. Cada fase contiene 
 
 | Fase | Tema | Carpeta |
 |------|------|---------|
-| 1 | Introducción a la POO en Java | [`Fase1`](Fase1) |
-| 2 | Métodos en Java | [`Fase2`](Fase2) |
-| 3 | Integración de clases, objetos y métodos | [`Fase3`](Fase3) |
+| 1 | Introducción a la POO en Java | [`Fase 1`](Fase%201) |
+| 2 | Métodos en Java | [`Fase 2`](Fase%202) |
+| 3 | Integración de clases, objetos y métodos | [`Fase 3`](Fase%203) |
 
 ## Estructura del repositorio
 
