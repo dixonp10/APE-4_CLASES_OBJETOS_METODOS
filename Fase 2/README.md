@@ -6,11 +6,14 @@ Programación Orientada a Objetos – Java
 
 👨‍💻 Integrantes del grupo
 
-Integrante	Ejercicios asignados
-Sebastian Navas	Ejercicios 1, 5 y Readme
-Dixon Prado	Ejercicios 2 y 6
-Francis Bonifaz	Ejercicios 3 y 7
-David Punina	Ejercicios 4 y 8
+
+| Integrante | Ejercicios asignados |
+| :--- | :--- |
+| **Sebastian Navas** | Ejercicios 1, 5 y Readme |
+| **Dixon Prado** | Ejercicios 2 y 6 |
+| **Francis Bonifaz** | Ejercicios 3 y 7 |
+| **David Punina** | Ejercicios 4 y 8 |
+
 
 ⸻
 
