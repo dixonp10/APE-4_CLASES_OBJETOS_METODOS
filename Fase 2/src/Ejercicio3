@@ -1,0 +1,27 @@
+// --------------------------------------------------------
+// EJERCICIO 3: Parámetros vs. Argumentos
+// --------------------------------------------------------
+public class Ejercicio3 {
+
+    // Parámetros: double x y double y. 
+    // Son las variables que se declaran en el método para recibir los valores.
+    public double multiplicar(double x, double y) {
+        return x * y;
+    }
+
+    public static void main(String[] args) {
+        Ejercicio3 miObjeto = new Ejercicio3();
+
+        // Argumentos: 4.0 y 5.5. 
+        // Son los valores reales que se envían al método cuando se realiza la llamada.
+        double res = miObjeto.multiplicar(4.0, 5.5);
+
+        System.out.println("Resultado: " + res); // Imprime 22.0
+    }
+}
+
+/*
+ * DIFERENCIA:
+ * - Los parámetros se definen en la declaración del método.
+ * - Los argumentos son los valores concretos que se proporcionan al llamar al método.
+ */
