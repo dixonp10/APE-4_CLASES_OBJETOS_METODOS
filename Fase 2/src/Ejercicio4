@@ -1,0 +1,17 @@
+Ejercicio 4: El comportamiento del paso por valor 
+Enunciado: Analiza el siguiente bloque de código. 
+Si la variable numero original en el main vale 10 antes de llamar al método, ¿cuál será su 
+valor impreso  en consola después de ejecutar el método? 
+
+Explica por qué. 
+public void incrementar(int n) { 
+n = n + 5; 
+}
+
+Respuesta: La variable `numero` seguirá valiendo 10 después de ejecutar el método.
+Explicación: Java utiliza el paso por valor. 
+Cuando se llama al método `incrementar(numero)`, se copia el valor de `numero` en 
+el parámetro `n`. Al ejecutar `n = n + 5`, solo cambia la copia local, no la variable original `numero`.
+
+Por lo tanto, al imprimir `numero` en el `main`, el resultado será:
+10
