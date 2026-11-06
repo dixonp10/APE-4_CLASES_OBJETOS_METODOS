@@ -1,0 +1,31 @@
+// ---------------------------------------------------------------
+// EJERCICIO 2
+// ---------------------------------------------------------------
+// El método debe ser void: solo realiza una acción (imprimir en consola)
+// y no necesita devolver ningún valor al código que lo llama.
+class Bienvenida {
+
+    public void mostrarBienvenida(String nombre, int edad) {
+        System.out.println("Hola " + nombre + ", tienes " + edad
+                + " años. ¡Bienvenido al sistema!");
+    }
+}
+
+// ---------------------------------------------------------------
+// CLASE PRINCIPAL (para probar ambos ejercicios)
+// ---------------------------------------------------------------
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("=== Ejercicio 1 ===");
+        Ejercicio1 ej1 = new Ejercicio1();
+        double resultado = ej1.calcularArea(5.5, 4.0);
+        System.out.println("Valor retornado: " + resultado);
+        ej1.calcularAreaVoid(3.0, 2.0);
+
+        System.out.println();
+        System.out.println("=== Ejercicio 2 ===");
+        Bienvenida b = new Bienvenida();
+        b.mostrarBienvenida("David", 21);
+    }
+}
