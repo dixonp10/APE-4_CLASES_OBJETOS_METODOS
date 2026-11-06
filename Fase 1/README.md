@@ -1,1 +1,37 @@
-cambiar - David
+# APE 4: Introducción a la POO en Java
+
+**Universidad Técnica de Ambato**
+Facultad de Ingeniería en Sistemas, Electrónica e Industrial
+Carrera de Software · Ciclo académico: julio – diciembre 2026
+
+- **Integrantes:** Sebastián Navas, Dixon Prado, Kevin Punina, Francis Bonifaz
+- **Docente:** Ing. Ruben Caiza, Mg.
+- **Modalidad:** Presencial 
+
+## Descripción
+
+Desarrollo de cinco ejercicios en Java aplicando clases, objetos, atributos, referencias y estructuras de control.
+
+| N.º | Ejercicio | Clases |
+|-----|-----------|--------|
+| 1 | Notas del curso | `Estudiante` |
+| 2 | Inventario de una tienda | `Producto` |
+| 3 | Veterinaria | `Mascota` |
+| 4 | Cuenta de ahorro | `Cuenta` |
+| 5 | Biblioteca | `Libro`, `Socio` |
+
+## Estructura del proyecto
+
+```
+APE4_POO_Java/
+├── src/
+│   ├── ejercicio1/   Estudiante.java, Main.java
+│   ├── ejercicio2/   Producto.java, Main.java
+│   ├── ejercicio3/   Mascota.java, Main.java
+│   ├── ejercicio4/   Cuenta.java, Main.java
+│   └── ejercicio5/   Libro.java, Socio.java, Main.java
+└── salidas/          salida_ejercicio1.png ... salida_ejercicio5.png
+```
+## Salidas
+
+La salida de cada ejecución está en la carpeta [`pruebas/`](pruebas).
